@@ -32,13 +32,15 @@ This is the code for a Frontend Masters workshop. In this workshop, we’ll lear
 
 ### Section 3: Serverless Functions
 
-Before serverless functions, getting 
+
+=======
+Before serverless functions, getting
 
 - What are serverless functions?
   - Talk about other providers
   - Use Netlify because it requires almost no setup/config
 - Create a "hello world" function
-- Use Netlify Dev to run it locally
+
 - Learn about redirects to change the URL
 - Deploy and see it working live
 
@@ -60,7 +62,7 @@ Before serverless functions, getting
   - Add a redirect for Netlify
 - Deploy the site to Netlify
   - Required so we can activate Identity
-- Add authentication w/Netlify Dev
+
   - `yarn add react-netlify-identity-widget react-netlify-identity @reach/dialog @reach/tabs @reach/visually-hidden`
   - Create a `Layout` component that wraps everything with the provider
   - Add the Identity modal to the dashboard page
@@ -82,6 +84,7 @@ Before serverless functions, getting
 - Create an API server key in the “security” tab
 - Add the server key to `.env`
 - Create a helper for serverless functions (`functions/utils/send-query.js`)
+
 - Load all todos
   - Create a serverless function `/functions/get-all-todos.js`
   - Write a hook to load todos
